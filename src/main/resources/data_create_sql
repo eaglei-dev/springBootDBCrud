@@ -1,0 +1,2 @@
+INSERT INTO BOOK(id,title,author,rating,pages) VALUES (1, 'The Alchemist', 'Paulo Cohelo', 4.9, 300);
+INSERT INTO BOOK(id,title,author,rating,pages) VALUES (2, 'The Monk Who Sold His Ferrari', 'Robin Sharma', 4.8, 300);
