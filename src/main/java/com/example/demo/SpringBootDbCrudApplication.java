@@ -18,11 +18,11 @@ public class SpringBootDbCrudApplication {
 		SpringApplication.run(SpringBootDbCrudApplication.class, args);
 	}
 	
-	@PostConstruct
-	public void createAuthorData() {
-		Author newAuthor = new Author(1,"Paulo","Choelo");
-		
-		authorRepository.save(newAuthor);
-	}
+	// @PostConstruct
+	// public void createAuthorData() {
+	//	Author newAuthor = new Author(1,"Paulo","Choelo");
+	//	
+	//	authorRepository.save(newAuthor);
+	// }
 
 }

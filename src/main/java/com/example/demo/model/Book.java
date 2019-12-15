@@ -6,6 +6,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 
 @Entity
 public class Book {
@@ -13,6 +15,7 @@ public class Book {
 	private long id;
 	private String title;
 	@ManyToOne(cascade = {CascadeType.ALL})
+	@JsonBackReference
 	private Author author;
 	private Double rating;
 	private int pages;
